@@ -1,0 +1,40 @@
+package com.example.show_person_list.columnExample.dataClass
+
+data class ColumnPerson(
+    val id: Int,
+    val name: String,
+    val email: String,
+)
+
+val columnPersonList = listOf<ColumnPerson>(
+    ColumnPerson(id = 1, name = "MR Mostakim", email = "mostakim@gmail.com"),
+    ColumnPerson(id = 2, name = "MR Mostakim", email = "motiur@gmail.com"),
+    ColumnPerson(id = 3, name = "MR Mostakim", email = "mrben@gmail.com"),
+    ColumnPerson(id = 4, name = "MR Mostakim", email = "mrbenrahmna@gmail.com"),
+    ColumnPerson(id = 5, name = "MR Mostakim", email = "anik@gmail.com"),
+    ColumnPerson(id = 6, name = "MR Mostakim", email = "mosfeq@gmail.com"),
+    ColumnPerson(id = 7, name = "MR Mostakim", email = "tarik@gmail.com"),
+    ColumnPerson(id = 8, name = "MR Mostakim", email = "ariful@gmail.com"),
+    ColumnPerson(id = 9, name = "MR Mostakim", email = "shakil@gmail.com"),
+    ColumnPerson(id = 10, name = "MR Mostakim", email = "sojib@gmail.com"),
+    ColumnPerson(id = 11, name = "MR Mostakim", email = "mubin@gmail.com"),
+    ColumnPerson(id = 12, name = "MR Mostakim", email = "rabbil@gmail.com"),
+    ColumnPerson(id = 13, name = "MR Mostakim", email = "hasan@gmail.com"),
+    ColumnPerson(id = 14, name = "MR Mostakim", email = "murad@gmail.com"),
+    ColumnPerson(id = 15, name = "MR Mostakim", email = "riaz@gmail.com"),
+    ColumnPerson(id = 16, name = "MR Mostakim", email = "mostakim@gmail.com"),
+    ColumnPerson(id = 17, name = "MR Mostakim", email = "motiur@gmail.com"),
+    ColumnPerson(id = 18, name = "MR Mostakim", email = "mrben@gmail.com"),
+    ColumnPerson(id = 19, name = "MR Mostakim", email = "mrbenrahmna@gmail.com"),
+    ColumnPerson(id = 20, name = "MR Mostakim", email = "anik@gmail.com"),
+    ColumnPerson(id = 21, name = "MR Mostakim", email = "mosfeq@gmail.com"),
+    ColumnPerson(id = 21, name = "MR Mostakim", email = "tarik@gmail.com"),
+    ColumnPerson(id = 23, name = "MR Mostakim", email = "ariful@gmail.com"),
+    ColumnPerson(id = 24, name = "MR Mostakim", email = "shakil@gmail.com"),
+    ColumnPerson(id = 25, name = "MR Mostakim", email = "sojib@gmail.com"),
+    ColumnPerson(id = 26, name = "MR Mostakim", email = "mubin@gmail.com"),
+    ColumnPerson(id = 27, name = "MR Mostakim", email = "rabbil@gmail.com"),
+    ColumnPerson(id = 28, name = "MR Mostakim", email = "hasan@gmail.com"),
+    ColumnPerson(id = 29, name = "MR Mostakim", email = "murad@gmail.com"),
+    ColumnPerson(id = 30, name = "MR Mostakim", email = "riaz@gmail.com"),
+)
